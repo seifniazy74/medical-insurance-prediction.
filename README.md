@@ -1,6 +1,6 @@
 # Medical Insurance Cost Prediction Project
 
-## 📌 Project Overview
+##  Project Overview
 This project aims to **predict medical insurance charges** based on demographic and health-related features using machine learning models.  
 The dataset contains information about individuals, including their **age, sex, BMI, number of children, smoking status, and region**.  
 The **target variable** is the insurance charges.
@@ -16,8 +16,8 @@ The **target variable** is the insurance charges.
 - **region**: Residential area *(southeast, southwest, northeast, northwest)*
 - **charges**: Medical insurance cost *(float, target variable)*
 
-✅ The dataset is clean, with **no missing values**.  
-✅ Categorical features are encoded using **LabelEncoder** for model compatibility.  
+ The dataset is clean, with **no missing values**.  
+ Categorical features are encoded using **LabelEncoder** for model compatibility.  
 
 ---
 
@@ -61,7 +61,7 @@ Two models were trained and evaluated:
 
 ---
 
-## 🖥️ Prediction System
+##  Prediction System
 A **simple prediction system** was built to estimate insurance charges for new input data:  
 - Input features are **encoded**.  
 - Passed into the **trained model**.  
@@ -88,5 +88,5 @@ A **simple prediction system** was built to estimate insurance charges for new i
 
 ---
 
-## 🎯 Conclusion
+##  Conclusion
 This dataset is suitable for **regression analysis** and demonstrates how **demographic and lifestyle factors impact medical insurance costs**.
